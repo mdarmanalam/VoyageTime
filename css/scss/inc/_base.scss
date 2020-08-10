@@ -1,0 +1,388 @@
+/*-- [ Reset ] --/
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126 --*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+pre { font-family: monospace; }
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+textarea, input, button, select { 
+  font-family: inherit; 
+  font-size: inherit; 
+}
+
+html {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.row:before, .row:after {display: none !important;}
+
+
+/*- 5 Columns -*/
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+/*- Clearfix -*/
+
+.clearfix,
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+/*- Float & align -*/
+
+.float-r {
+	float: right;
+}
+
+.float-l {
+	float: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/*- Margin & Padding -*/
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-26 {
+  margin-top: 37px !important;
+}
+
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.mt-60 {
+  margin-top: 60px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.pt-10 {
+  padding-top: 10px !important;
+}
+
+.pt-20 {
+  padding-top: 20px !important;
+}
+
+.pt-30 {
+  padding-top: 30px !important;
+}
+
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+.pt-50 {
+  padding-top: 50px !important;
+}
+
+.pt-60 {
+  padding-top: 60px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+
+.pb-40 {
+  padding-bottom: 40px !important;
+}
+
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
+.pb-60 {
+  padding-bottom: 60px !important;
+}
+
+/*- Height vh -*/
+
+
+.height100vh {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height90vh {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height80vh {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height70vh {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height60vh {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height50vh {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height40vh {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height30vh {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.height20vh {
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*- Other -*/
+
+.container-sm .col, .container-sm .col-1, .container-sm .col-10, .container-sm .col-11, .container-sm .col-12, 
+.container-sm .col-2, .container-sm .col-3, .container-sm .col-4, .container-sm .col-5, .container-sm .col-6, 
+.container-sm .col-7, .container-sm .col-8, .container-sm .col-9, .container-sm .col-auto, .container-sm .col-lg, 
+.container-sm .col-lg-1, .container-sm .col-lg-10, .container-sm .col-lg-11, .container-sm .col-lg-12, 
+.container-sm .col-lg-2, .container-sm .col-lg-3, .container-sm .col-lg-4, .container-sm .col-lg-5, 
+.container-sm .col-lg-6, .container-sm .col-lg-7, .container-sm .col-lg-8, .container-sm .col-lg-9, 
+.container-sm .col-lg-auto, .container-sm .col-md, .container-sm .col-md-1, .container-sm .col-md-10, 
+.container-sm .col-md-11, .container-sm .col-md-12, .container-sm .col-md-2, .container-sm .col-md-3, 
+.container-sm .col-md-4, .container-sm .col-md-5, .container-sm .col-md-6, .container-sm .col-md-7, 
+.container-sm .col-md-8, .container-sm .col-md-9, .container-sm .col-md-auto, .container-sm .col-sm, 
+.container-sm .col-sm-1, .container-sm .col-sm-10, .container-sm .col-sm-11, .container-sm .col-sm-12, 
+.container-sm .col-sm-2, .container-sm .col-sm-3, .container-sm .col-sm-4, .container-sm .col-sm-5, 
+.container-sm .col-sm-6, .container-sm .col-sm-7, .container-sm .col-sm-8, .container-sm .col-sm-9, 
+.container-sm .col-sm-auto, .container-sm .col-xl, .container-sm .col-xl-1, .container-sm .col-xl-10, 
+.container-sm .col-xl-11, .container-sm .col-xl-12, .container-sm .col-xl-2, .container-sm .col-xl-3, 
+.container-sm .col-xl-4, .container-sm .col-xl-5, .container-sm .col-xl-6, .container-sm .col-xl-7, 
+.container-sm .col-xl-8, .container-sm .col-xl-9, .container-sm .col-xl-auto {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+*:focus, .btn.focus, .btn:focus, .form-control:focus, input:focus {
+  outline: 0 !important;
+  box-shadow: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+.width100 {
+  width:100%;
+}
+
+.block {
+  display: block;
+} 
+
+.inline-block {
+  display: inline-block;
+} 
+
+.inline {
+  display: inline;
+}
+
+.mockinput {
+  opacity: 0;
+  height: 0px;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+}

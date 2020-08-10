@@ -1,0 +1,7 @@
+
+#fw-backend-option-fw-option-slider-selected, #fw-backend-option-fw-option-slider-owl-carousel-population-method,
+#fw-backend-option-fw-option-slider-type, #fw-backend-option-fw-option-population-method,
+td.slider_design.column-slider_design, th#slider_design,th#population_method, td.population_method.column-population_method, 
+table.wp-list-table tfoot {
+	display: none;
+}
