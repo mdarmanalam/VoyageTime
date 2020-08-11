@@ -1,6 +1,6 @@
 :root {
-  --first_color: #ffd903;
-  --second_color: #ef3822;
+  --first_color: #ca0f0f;
+  --second_color: #f70606;
   --third_color: #fffce9;
   --bg_color: #FFFFFF;
 }
@@ -21,12 +21,12 @@ body, .separator span, hr.hr-4:after {
 .date-picker-wrapper .month-wrapper table .day.checked, .loader, .bg-light, .owl-dots button.active, .promotion-block span, ul.contact-social li a, .tour-list-item-1 p.price span, .tour-list-item-3 p.price span, .sidebar-item ul.tags li a, .blog-post-tags ul.tags li a, .tour-single-sidebar-price, .tour-single-sidebar-title, .sidebar .widget .tagcloud a, .bg-main, .tour-item .img-wrap p.departure, .btn.btn-1,
 .accordion-element.accordion-2 a.toggle, span.badge, .alert-fixed
 
- {
+{
 	background: var(--first_color) !important;
 }
 
 .nav-menu > li > a.active, .nav-menu > li > a:hover, .nav-menu > li > a.active, .nav-menu > li > a:hover, .btn:hover, .testimonial-item-border:hover .testimonial-info-quote:before, .fw-testimonials .prev, .fw-testimonials .next, .counter-item span, .counter-item i, .modal-form label.error, li.to-section a.active, nav.navigation ul li.active.current_page_item > a
- {
+{
 	color: var(--first_color) !important;
 }
 
@@ -91,10 +91,19 @@ blockquote.blockquote-1 {
 .tour-single-sidebar-info-item .tour-single-icon span, .contact-form-7 span.wpcf7-not-valid-tip, p.header-info-title,
 .contact-form label.error, .subscribe-form label.error, blockquote.blockquote-2:before,.infography-2.infography i, .infography-2.infography:hover i,
 .tour-single-sidebar-info-item span
-  {
+{
 	color: var(--second_color) !important;
 }
 
 .bg-gray {
     background-color: var(--third_color);
+}
+.main-header-logo img {
+	width:363px;
+	height:100px;
+	margin-top: -25px;
+}
+.footer-item img {
+	width:363px;
+	height:100px;
 }
